@@ -321,21 +321,10 @@ int main( int argc, char *argv[] ) {
             }
         }
         
-        /* Checking for sorting errors - if not sorted - show the error */
-        /*
-        for (i=0; i<sizeOfArray; i++) {
-            if(i>0){
-                if(sorted[i]<sorted[i-1]){
-                    fprintf(stderr,"ERROR WHILE SORTING ARRAY!!! ");
-                }
-            }
-        }
-        */
         counter /= 2;
         arrayNumber++;
     }
 
-    //showDoubleArray(timesArray,numberOfArrays);
 	
 	/**************************************************************************/
 	fprintf(stderr,"___________________________________________________\n");
